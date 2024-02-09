@@ -1,4 +1,4 @@
-Region/country/area,Indicator,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022
+CountryName,Indicator,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022
 World,RE share of electricity capacity (%),24.12,25.06,26.12,27.2,28.19,29.52,30.72,32.08,33.16,34.6,36.66,38.42,40.26
 World,RE share of electricity generation (%),19.43,19.76,19.51,21.44,22.21,22.67,23.56,24.24,24.87,25.85,27.65,27.79,0
 Africa,RE share of electricity capacity (%),19.2,18.85,18.76,18.99,19.45,20.01,20.03,21.1,21.61,21.71,22.51,22.94,23.61
@@ -83,8 +83,8 @@ Niger,RE share of electricity capacity (%),1.14,1.31,1.53,1.91,2.28,2.66,3.02,2.
 Niger,RE share of electricity generation (%),1.13,1.49,1.41,1.61,1.75,1.87,2.12,2.42,8.1,8.1,8.1,8.1,0
 Nigeria,RE share of electricity capacity (%),24.34,23.3,23.3,21.18,20.06,20.11,17.03,17.02,16.44,16.47,16.51,16.67,16.69
 Nigeria,RE share of electricity generation (%),26.74,19.87,18.77,20.69,19.77,20.08,28.54,24.58,22.96,25.34,22.57,25.34,0
-Réunion,RE share of electricity capacity (%),39.68,43.03,42.6,40.17,43.92,45.31,45.45,45.55,48.23,48.72,49.2,50.19,50.19
-Réunion,RE share of electricity generation (%),33.76,30.25,34.62,37.77,32.96,36.1,34.12,32.39,36.45,31.25,24.64,28.2,0
+Rï¿½union,RE share of electricity capacity (%),39.68,43.03,42.6,40.17,43.92,45.31,45.45,45.55,48.23,48.72,49.2,50.19,50.19
+Rï¿½union,RE share of electricity generation (%),33.76,30.25,34.62,37.77,32.96,36.1,34.12,32.39,36.45,31.25,24.64,28.2,0
 Rwanda,RE share of electricity capacity (%),48.56,51.21,51.68,53.45,58.96,51.63,49.31,50.35,51.4,54.19,55.92,55.92,50.17
 Rwanda,RE share of electricity generation (%),53.51,53.65,56.53,48.48,53.39,60.65,48.9,47.89,48.22,52.02,60.6,58.25,0
 Sao Tome and Principe,RE share of electricity capacity (%),13.52,11.56,11.56,11.56,10.27,8.16,6.99,7.59,7.59,7.42,7.39,6.98,6.98
@@ -259,8 +259,8 @@ Georgia,RE share of electricity capacity (%),79.59,79.6,79.63,81.55,79.47,79.45,
 Georgia,RE share of electricity generation (%),93.21,78.11,74.46,82.23,80.37,78.04,80.69,80.64,82.59,76.05,74.74,81.22,0
 Russian Federation,RE share of electricity capacity (%),21.39,21.41,21.27,21,19.8,20.51,19.46,19.47,19.54,19.75,20.23,20.59,20.68
 Russian Federation,RE share of electricity generation (%),15.48,15.19,14.88,16.39,15.57,14.91,16.05,16.02,17.34,17.63,19.91,21.58,0
-Türkiye,RE share of electricity capacity (%),35.07,36.07,38.87,39.91,40.19,43.09,43.88,45.48,47.69,48.64,51.3,53.27,53.88
-Türkiye,RE share of electricity generation (%),26.38,25.33,27.24,28.83,20.89,31.96,32.89,29.35,32.08,43.52,41.85,35.42,0
+Tï¿½rkiye,RE share of electricity capacity (%),35.07,36.07,38.87,39.91,40.19,43.09,43.88,45.48,47.69,48.64,51.3,53.27,53.88
+Tï¿½rkiye,RE share of electricity generation (%),26.38,25.33,27.24,28.83,20.89,31.96,32.89,29.35,32.08,43.52,41.85,35.42,0
 Europe,RE share of electricity capacity (%),31.51,34.05,36.3,38.09,39.3,41.2,42.8,44.44,45.46,47.88,49.84,51.91,53.77
 Europe,RE share of electricity generation (%),23.11,23.14,26.12,28.71,30.5,31.27,31.64,31.88,34.19,35.64,40.16,39.27,0
 Albania,RE share of electricity capacity (%),100,100,94.38,94.79,94.63,94.83,95.13,95.37,95.49,95.69,96.13,96.31,96.32

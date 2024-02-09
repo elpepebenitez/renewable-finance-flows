@@ -15,6 +15,12 @@ merged_data.rename(columns={'2022': 'Population_2022'}, inplace=True)
 merged_data['EnergyPerCapita'] = merged_data['ElectricityGeneration'] / merged_data['Population_2022']
 merged_data['AverageEnergyPerCapita'] = merged_data.groupby('Region')['EnergyPerCapita'].transform('mean')
 
+# Calculate the total energy generation per capita for all regions
+total_energy = merged_data['EnergyPerCapita'].sum()
+
+# Calculate the percentage share for each region
+merged_data['PercentageShare'] = (merged_data['AverageEnergyPerCapita'] / total_energy) * 100
+
 # # Group by region
 # region_grouped = merged_data.groupby('Region')['EnergyPerCapita'].mean().sort_values(ascending=False)
 
@@ -35,13 +41,7 @@ merged_data['AverageEnergyPerCapita'] = merged_data.groupby('Region')['EnergyPer
 # plt.show()
 
 # Assuming 'region_grouped' is the DataFrame with per capita data
-plt.figure(figsize=(10, 6))
-
-# Calculate the total energy generation per capita for all regions
-total_energy = merged_data['EnergyPerCapita'].sum()
-
-# Calculate the percentage share for each region
-merged_data['PercentageShare'] = (merged_data['AverageEnergyPerCapita'] / total_energy) * 100
+# plt.figure(figsize=(10, 6))
 
 # # Plotting the pie chart
 # plt.pie(merged_data['PercentageShare'], labels=merged_data['Region'], autopct='%1.1f%%', startangle=140, colors=plt.cm.Paired.colors)
